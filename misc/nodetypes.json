@@ -5,6 +5,11 @@
         "temperature": { "type": "float", "settable": false }
       }
     },
+    "humidity": {
+      "properties": {
+        "humidity": { "type": "percentage", "settable": false }
+      }
+    },
     "shutters": {
       "properties": {
         "level": { "type": "percentage", "settable": true }
